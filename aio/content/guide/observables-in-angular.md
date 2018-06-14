@@ -86,9 +86,9 @@ The following example binds the `time` observable to the component's view. The o
 
 <code-example path="observables-in-angular/src/main.ts" title="Router events" region="router"></code-example>
 
-The [ActivatedRoute](https://angular.io/api/router/ActivatedRoute) is an injected router service that makes use of observables to get information about a route path and parameters. For example, `ActivateRoute.url` contains an observable that reports the route path or paths. Here's an example:
+The [ActivatedRoute](https://angular.io/api/router/ActivatedRoute) is an injected router service that makes use of observables to get information about a route path and parameters. For example, `ActivatedRoute.url` contains an observable that reports the route path or paths. Here's an example:
 
-[ActivatedRoute](https://angular.cn/api/router/ActivatedRoute) 是一个可注入的路由器服务，它使用可观察对象来获取关于路由路径和路由参数的信息。比如，`ActivateRoute.url` 包含一个用于汇报路由路径的可观察对象。例子如下：
+[ActivatedRoute](https://angular.cn/api/router/ActivatedRoute) 是一个可注入的路由器服务，它使用可观察对象来获取关于路由路径和路由参数的信息。比如，`ActivatedRoute.url` 包含一个用于汇报路由路径的可观察对象。例子如下：
 
 <code-example path="observables-in-angular/src/main.ts" title="ActivatedRoute" region="activated_route"></code-example>
 
